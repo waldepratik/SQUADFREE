@@ -1,0 +1,619 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 2000px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+.bg-colour{
+    background: rgba(55, 142, 181, 0.9);
+
+}
+.fn-logo{
+    font-weight: 700;
+    font-size: 28px! important;
+}
+.menu{
+    padding: 0px 16px !important;
+}
+.menu a{
+    font-size: 17px !important;
+    font-weight: 700;
+}
+
+/* ...............................................navigation ends............................................................. */
+
+/* .........................................................1st section starts................................................ */
+
+
+#hero{
+  height: 100vh;
+  background: linear-gradient(rgba(55, 142, 181, 0.5), 
+  rgba(55, 142, 181, 0.2)), 
+  url("../img/hero-bg.jpg") top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.togle{
+  color: #fff;
+  border: 0;
+}
+.main-hero h1{
+  font-weight: 800;
+  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 75px;
+}
+.main-hero h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+.btn-get-start {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 13px 22px;
+  margin-top: 8%;
+  font-size: 23px;
+}
+.btn-get-start:hover{
+  border: 3px solid #fff;
+  background-color: #d4cccc69;
+
+}
+
+/* ................................................. 1st swction ends................................ */
+
+/* ............................................. 2nd section starts................................... */
+
+
+.about{
+  /* height: 100vh; */
+  background-image: url("../img/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px;
+}
+.about .content{
+  padding: 30px 30px 30px 0px;
+}
+.about .content h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.about .content p{
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.about .btn-about{
+  display: inline-block;
+  background-color: #67b0d1;
+  padding: 8px 34px;
+  border-radius: 30px;
+  color: #fff;
+}
+.about .btn-about:hover{
+  opacity: 0.8;
+  transition: 0.4s;
+}
+.icon-box img{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.icon-box  h4{
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.icon-box p{
+  font-size: 15px;
+  color: #848484;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 40px;
+}
+
+
+
+/* ......................................2nd section ends......................................... */
+
+/* ......................................3rd section starts......................................... */
+
+.service{
+  padding: 60px 0px;
+  /* background-color: #fbfbfb; */
+}
+.section-title h2{
+  font-size: 34px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+}
+.section-title h2:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/section-title-bg.png");
+  width: 122px;
+  height: 67px;
+  z-index: -1;
+}
+.section-title p{
+  color: #6a6969;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+.service .icon-box-2{
+  padding: 30px ;
+  background-color: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+.service .icon-box-2 .fa{
+  color:  #67b0d1;
+  margin-bottom: 15px;
+}
+.title{
+  font-size: 20px;
+}
+.icon-box-2 p{
+  color: #919191;
+}
+.service .icon-box-2:hover::before {
+  background: #67b0d1;
+  top: 0;
+  border-radius: 0px;
+}
+.service .icon-box-2::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+/* ............................................3rd section ends............................................. */
+
+/* ............................................4th section starts........................................... */
+.numbers{
+  background-color: #f4f9fc;
+  padding: 60px 0px;
+}
+.count-box{
+  padding: 30px;
+}
+.count-box .fa{
+  color: #67b0d1;
+
+}
+.count-box span{
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 10px;
+  color: #2f4d5a;
+  font-family: 'Raleway', sans-serif;
+
+}
+.count-box p{
+  font-size: 14px;
+  color: #49788c;
+  padding-left: 57px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/* ...........................................4th section ends.......................................... */
+
+/* ............................................5th section starts.................................... */
+
+.cta{
+  background: linear-gradient(rgba(103, 176, 209, 0.8),
+             rgba(103, 176, 209, 0.8)), 
+             url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+.port-text h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.port-text p{
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.btn-cta{
+  padding: 9px 30px;
+  border-radius: 39px;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.258);
+}
+.btn-cta:hover{
+  background-color: transparent;
+  border: 2px solid white; 
+  transition: 0.4s;
+}
+
+/* ......................................5th section ends............................................... */
+
+/* ......................................6th section starts.............................................. */
+
+.port{
+  padding: 60px 0px;
+}
+.btn-group{
+  margin:0 37% ;
+}
+.port-filters{
+  list-style: none;
+  text-align: center;
+  background: #ecf5f9;
+  border-radius: 50px;
+  padding: 2px 15px;
+  margin: 0 auto 35px auto;
+}
+.port-filters .filter-active {
+  color: #67b0d1;
+}
+.port-filters li{
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2f4d5a;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.port-filters li:hover{
+  color: #67b0d1;
+
+}
+.port-wrap{
+  position: relative;
+  /* width: 50%; */
+}
+.port-wrap img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.port-links{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba78;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.port-wrap:hover .port-links {
+  height: 50px;
+  overflow: hidden;
+
+}
+.port-wrap img:hover{
+  opacity: 0.6;
+  transition: .5s ease;
+
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* .........................................6th section ends............................................ */
+
+/* ............................................7th section starts....................................... */
+
+.team{
+  padding: 60px 0px;
+}
+.team h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.team .member .member-info {
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 0;
+  color: #2f4d5a;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  max-height: 95px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2f4d5a;
+  position: relative;
+  padding-bottom: 10px;
+}
+.team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b1cbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.team .member:hover .member-info {
+  max-height: 300px;
+}
+.team .member .social a {
+  transition: color 0.3s;
+  color: #52869d;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.team .member:hover .member-info {
+  max-height: 300px;
+}
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px!important;
+  padding-top: 20px !important;
+}
+
+/* .........................................7th section ends................................................  */
+
+/* .......................................8th section starts............................................... */
+
+.contact{
+  padding: 60px 0px;
+}
+.location-box .fa{
+  color: #67b0d1 ;
+}
+.contact .location-box {
+  color: #444444;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+.contact .location-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.contact .location-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.email-form{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    background: #fff;
+
+}
+.form-group .namee{
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 14px;
+}
+.form-group .emaill{
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 14px;
+}
+.form-group .subj{
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 14px;
+}
+.form-group .msg{
+  padding: 10px 15px;
+  border-radius: 0px;
+  font-size: 14px;
+}
+.send{
+  background-color:#67b0d1;
+  border: 0px;
+  padding: 10px 22px;
+  color: #fff;
+
+}
+.send:hover{
+  opacity: 0.8;
+  transition: 0.4s;
+}
+.iframe{
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+/* .............................................section 8th ends..........................................  */
+
+/* ...........................................section 9th footer starts................................... */
+
+.footer{
+  background-color: #263f49;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+.footer .footer-top{
+  padding: 60px 0px 30px 0px;
+}
+.footer-info{
+  margin-top: -90px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  color: #2f4d5a;
+  border-top: 4px solid #67b0d1;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer-info h3{
+  font-weight: 800;
+  font-size: 25px;
+  margin: 0px 0px 20px 0px;
+  padding: 2px 0px;
+  font-family: "Raleway", sans-serif;
+}
+.footer-info p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+
+}
+.social-links a{
+  font-size: 18px;
+  display: inline-block;
+  background-color: #2f4d5a;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+}
+.footer-links{
+  margin-bottom: 30px;
+}
+.footer-links h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 12px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links ul i{
+  padding-left: 6px;
+  color: #b5d9e9;
+  font-size: 18px;
+  line-height: 1;
+}
+.footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.footer-links ul li a{
+  text-decoration: none;
+  padding-left: 7px;
+  color: #fff;
+}
+.footer-links ul li a:hover{
+  color: #b5d9e9;
+
+}
+.footer-newsletter h4{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 12px;
+  font-family: "Raleway", sans-serif;
+
+}
+.footer-newsletter p{
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 11px;
+}
+.last-subs{
+  position: relative;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 7px 10px;
+}
+.last-subs input{
+  border: 0;
+  padding: 5px;
+  width: calc(100% - 235px);
+}
+.sub-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  background: #67b0d1;
+  color: #fff;
+  transition: 0.3s;
+}
+.footer .copyright{
+  border-top: 1px solid #385b6b;
+  padding-top: 30px;
+}
+.footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.footer .credits a{
+  text-decoration: none;
+}
